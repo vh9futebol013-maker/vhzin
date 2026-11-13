@@ -1,0 +1,6 @@
+{
+  "name": "Quero Burgers",
+  "description": "Sistema de delivery da madrugada e painel administrativo para a hamburgueria artesanal Quero Burgers em Santos - SP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
