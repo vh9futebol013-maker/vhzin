@@ -1,6 +1,12 @@
 import { Order, Product, StoreSettings } from '../types';
+import heroQueroBurgerImg from '../assets/images/hero_quero_burger_1794603132874.jpg';
+import menuSmashDuploImg from '../assets/images/menu_smash_duplo_1794603133004.jpg';
+import menuSmashSaladImg from '../assets/images/menu_smash_salad_1794603132740.jpg';
+import menuArtesanalBaconImg from '../assets/images/menu_artesanal_bacon_1794603133730.jpg';
+import menuComboMadrugadaImg from '../assets/images/menu_combo_madrugada_1794603133197.jpg';
+import menuBebidaGeladaImg from '../assets/images/menu_bebida_gelada_1794603134238.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_quero_burger_1794603132874.jpg';
+export const HERO_IMAGE = heroQueroBurgerImg;
 
 export const INITIAL_SETTINGS: StoreSettings = {
   storeName: 'Quero Burgers',
@@ -22,7 +28,7 @@ export const INITIAL_MENU: Product[] = [
       'Dois blends bovinos de 90g prensados na chapa quente com crostinha crocante, cheddar americano derretido, picles artesanal, cebola picada e molho da casa no brioche tostado.',
     price: 34.9,
     category: 'Smash',
-    image: '/src/assets/images/menu_smash_duplo_1794603133004.jpg',
+    image: menuSmashDuploImg,
     available: true,
     highlight: 'Mais Pedido',
     prepMinutes: 14,
@@ -34,7 +40,7 @@ export const INITIAL_MENU: Product[] = [
       'Smash burger 100g suculento com queijo prato derretido, alface americana crocante, tomate italiano, cebola roxa e maionese de alho assado no pão brioche selado na manteiga.',
     price: 28.9,
     category: 'Smash',
-    image: '/src/assets/images/menu_smash_salad_1794603132740.jpg',
+    image: menuSmashSaladImg,
     available: true,
     prepMinutes: 12,
   },
@@ -45,7 +51,7 @@ export const INITIAL_MENU: Product[] = [
       'Para quem não brinca na madrugada: 3 carnes smash de 90g, triplo cheddar cremoso, cebola caramelizada no shoyu e molho defumado no pão brioche.',
     price: 42.9,
     category: 'Smash',
-    image: '/src/assets/images/menu_smash_duplo_1794603133004.jpg',
+    image: menuSmashDuploImg,
     available: true,
     highlight: 'Madrugada',
     prepMinutes: 16,
@@ -57,7 +63,7 @@ export const INITIAL_MENU: Product[] = [
       'Burger alto 180g de Angus na brasa, fatias espessas de bacon artesanal defumado, cheddar maturado, geleia de cebola roxa e rúcula fresca no brioche com gergelim.',
     price: 44.9,
     category: 'Artesanais',
-    image: '/src/assets/images/menu_artesanal_bacon_1794603133730.jpg',
+    image: menuArtesanalBaconImg,
     available: true,
     highlight: 'Especial da Casa',
     prepMinutes: 20,
@@ -69,7 +75,7 @@ export const INITIAL_MENU: Product[] = [
       'Hambúrguer artesanal 180g selado no ponto perfeito, queijo gouda derretido, bacon crocante em tiras, maionese de páprica defumada e cebola crispy.',
     price: 46.9,
     category: 'Artesanais',
-    image: '/src/assets/images/menu_artesanal_bacon_1794603133730.jpg',
+    image: menuArtesanalBaconImg,
     available: true,
     prepMinutes: 20,
   },
@@ -80,7 +86,7 @@ export const INITIAL_MENU: Product[] = [
       'Blend Angus 180g, creme de gorgonzola suave, bacon tostado, tomate confit e redução balsâmica no pão brioche artesanal.',
     price: 45.9,
     category: 'Artesanais',
-    image: '/src/assets/images/menu_smash_salad_1794603132740.jpg',
+    image: menuSmashSaladImg,
     available: true,
     prepMinutes: 20,
   },
@@ -91,7 +97,7 @@ export const INITIAL_MENU: Product[] = [
       'Q-Smash Duplo + Porção generosa de batatas crinkle temperadas com páprica e alecrim + Molho cheddar & alho + Refrigerante gelado 350ml.',
     price: 54.9,
     category: 'Combos',
-    image: '/src/assets/images/menu_combo_madrugada_1794603133197.jpg',
+    image: menuComboMadrugadaImg,
     available: true,
     highlight: 'Melhor Custo',
     prepMinutes: 18,
@@ -103,7 +109,7 @@ export const INITIAL_MENU: Product[] = [
       '2 Q-Smash Duplo Bacon + 1 Batata Crinkle G com cheddar e bacon + 2 Refrigerantes 350ml bem gelados para salvar o rolê.',
     price: 96.9,
     category: 'Combos',
-    image: '/src/assets/images/menu_combo_madrugada_1794603133197.jpg',
+    image: menuComboMadrugadaImg,
     available: true,
     prepMinutes: 22,
   },
@@ -114,7 +120,7 @@ export const INITIAL_MENU: Product[] = [
       'Cola artesanal ultra gelada servida com cubos de gelo cristalino e rodela de limão tahiti fresco.',
     price: 11.9,
     category: 'Bebidas',
-    image: '/src/assets/images/menu_bebida_gelada_1794603134238.jpg',
+    image: menuBebidaGeladaImg,
     available: true,
     prepMinutes: 4,
   },
@@ -125,7 +131,7 @@ export const INITIAL_MENU: Product[] = [
       'Milkshake cremoso batido com sorvete artesanal de baunilha, ganache de chocolate meio amargo e finalizado com cacau polvilhado.',
     price: 22.9,
     category: 'Bebidas',
-    image: '/src/assets/images/menu_bebida_gelada_1794603134238.jpg',
+    image: menuBebidaGeladaImg,
     available: true,
     highlight: 'Gelado',
     prepMinutes: 6,
